@@ -1,0 +1,17 @@
+{
+    "name": "CustomFactory.Factory",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6a4e5f9aa89b0bc499a773afbabf9ef2",
+        "GUID:52f0dab5818bbd746950895b2f790790"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
