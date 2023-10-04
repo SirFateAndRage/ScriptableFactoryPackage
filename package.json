@@ -1,7 +1,7 @@
 {
     "name": "com.sirfateandrage.scriptablefactorypackage",
-    "version": "1.0.0",
-    "displayName": "SirFateAndRage Scriptable Factory Package",
+    "version": "1.0.1",
+    "displayName": "SFR_ScriptableFactoryPackage",
     "description": "Harness ScriptableObjects in Unity for efficient object creation, using the Factory pattern template. Simplify workflows, promote code reusability, and enhance data organization for more efficient and maintainable development",
     "unity": "2019.1",
         "samples": [
