@@ -1,0 +1,20 @@
+{
+    "name": "MonoFactorySample.F",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a4916adbfc1cdfe4e9bbcce6f97e9f8b",
+        "GUID:b6d63f30cb4025748a51da511ddc6e92",
+        "GUID:6a4e5f9aa89b0bc499a773afbabf9ef2",
+        "GUID:ea84ddff293782443ba2d7500fd1f945",
+        "GUID:7500899dc2570cc4486aa390b2c3d6e1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

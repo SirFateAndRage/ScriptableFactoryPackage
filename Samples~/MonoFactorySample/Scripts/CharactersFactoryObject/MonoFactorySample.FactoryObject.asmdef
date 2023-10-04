@@ -1,0 +1,16 @@
+{
+    "name": "MonoFactorySample.FactoryObject",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6a4e5f9aa89b0bc499a773afbabf9ef2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
