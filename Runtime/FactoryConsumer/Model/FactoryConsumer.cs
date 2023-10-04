@@ -1,5 +1,6 @@
 ﻿using ScriptableFactoryPackage.Factory;
 using ScriptableFactoryPackage.FactoryObject;
+using System;
 using UnityEngine;
 
 namespace ScriptableFactoryPackage.FactoryConsumer
@@ -14,7 +15,10 @@ namespace ScriptableFactoryPackage.FactoryConsumer
 
         protected TFactory Factory { get => _factory; }
 
-        private void Awake() => _factory = (TFactory)_consumerConfiguration.GetFactory();
+        private void Awake() => _factory = GetFactory(_consumerConfiguration);
+
+        protected abstract TFactory GetFactory(ConsumerConfiguration<TObject, TId, TWrappingObject> consumerConfiguration);
+
         public abstract void ConsumeFactoryObject(TId id);
     }
 }

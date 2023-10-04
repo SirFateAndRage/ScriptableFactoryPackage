@@ -23,7 +23,7 @@ namespace ScriptableFactoryPackage.Factory
         public TObject GetFactoryObjectById(TId id)
         {
             if (!_idToFactoryObject.TryGetValue(id, out TObject factoryObject))
-                throw new Exception("Error on DictionaryFactory: There isn't a product with id" + id);
+                throw new Exception("Error on DictionaryFactory: There isn't a product with id " + id);
 
             return factoryObject;
         }

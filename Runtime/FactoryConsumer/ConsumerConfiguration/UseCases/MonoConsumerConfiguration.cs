@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ScriptableFactoryPackage.FactoryConsumer
 {
-    [CreateAssetMenu(menuName = "CustomFactory/ConsumerConfiguration/MonoConsumerConfiguration")]
+    [CreateAssetMenu(fileName = "Default" ,menuName = "CustomFactory/ConsumerConfiguration/MonoConsumerConfiguration/Default", order = -1)]
     public class MonoConsumerConfiguration<TObject, TId> : ConsumerConfiguration<TObject, TId, TObject>
     where TObject : MonoBehaviour, IIdentifator<TId>
     {

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace ScriptableFactoryPackage.Factory
 {
-    [CreateAssetMenu(menuName = "CustomFactory/Configuration/MonoFactoryConfigurations")]
+    [CreateAssetMenu(fileName = "Default", menuName = "CustomFactory/Configuration/MonoFactoryConfigurations/DefaultConfiguration", order = -1)]
     public class MonoFactoryConfiguration<TObject, TId> : FactoryConfiguration<TObject, TId, TObject>
     where TObject : IIdentifator<TId>
     {
